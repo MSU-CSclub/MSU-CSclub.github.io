@@ -1,1 +1,1 @@
-# MSU-CSclub.github.io
+# MinotState.github.io
