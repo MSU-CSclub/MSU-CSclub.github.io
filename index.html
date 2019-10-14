@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>CS Club</title>
+<title>Minot State University Computer Science Club</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="w3.css">
 <style>
-body {font-family: "Lato", sans-serif}
+body {font-family:  "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
 .mySlides {display: none}
 </style>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-red w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">home</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">student projects</a>
@@ -25,7 +23,7 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<div id="navDemo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">student projects</a>
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">upcoming events</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">contact us</a>
@@ -48,11 +46,10 @@ body {font-family: "Lato", sans-serif}
     <h2 class="w3-wide">Minot State University</h2>
     <h3 class="w3-opacity">computer science club</h3>
     <p class="w3-justify">The Minot State University Computer Science Club is dedicated to providing a supportive and edifying environment for its members. Going beyond the class environment, we seek to provide experiences in student-driven collaborative design, host extracurricular learning oppritunities, and provide community outreach in the Minot area. </p>
-    <p class="w3-justify">This is where the amazing description about the club will go. Someone will have to write it though and it cant be just a few words</p>
   </div>
 
   <!-- The Student Projects Section -->
-  <div class="w3-black" id="tour">
+  <div class="w3-red" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">student projects</h2>
       <p class="w3-opacity w3-center"><i>what the kids are upto!</i></p><br>
@@ -63,7 +60,7 @@ body {font-family: "Lato", sans-serif}
             <p><b>Adam Seikh</b></p>
             <p class="w3-opacity">Some cool app</p>
             <p>"i was just playing around with some gad-jets and and then this idea came to me".</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('popUpProject').style.display='block'">Read More</button>
+            <button class="w3-button w3-red w3-margin-bottom" onclick="document.getElementById('popUpProject').style.display='block'">Read More</button>
           </div>
         </div>
       </div>
@@ -84,7 +81,7 @@ body {font-family: "Lato", sans-serif}
         <p><label><i class="fa fa-user"></i> Send To</label></p>
         <input class="w3-input w3-border" type="text" placeholder="Enter email">
         <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('popUpProject').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <button class="w3-button fw3-red w3-section" onclick="document.getElementById('popUpProject').style.display='none'">Close <i class="fa fa-remove"></i></button>
         <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
       </div>
     </div>
@@ -110,7 +107,7 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <button class="w3-button w3-red w3-section w3-right" type="submit">SEND</button>
         </form>
       </div>
     </div>
@@ -120,7 +117,7 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<!--img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"-->
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
